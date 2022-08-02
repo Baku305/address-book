@@ -122,7 +122,7 @@ function AddContact(props) {
         <input id="age" type="text" ref={newPhone} />
         <div className="avatar-container">
           {db.map((user, i) => (
-            <img key={i} src={user.image} alt="avatar-img" onClick={handlerImg}></img>
+            <img key={i} src={user.image} alt="avatar-img" className="avatar-img" onClick={handlerImg}></img>
           ))}
         </div>
         <button className="addContanct-button" onClick={handlerAddNewContact}>
