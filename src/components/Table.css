@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+}
+
+.table-container {
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+}
+
+.table-container .search-container {
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+}
+
+.table-container .select-container{
+margin-top: 10px;
+}
+
+.table-container .search-container .table-input{
+ width: fit-content;
+ margin-top: 10px;
+}
+
+.table-container .t-content {
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-container .t-content thead{
+ width: fit-content;
+}
+
+.table-container .t-content thead h2 {
+ text-shadow: 0px 0px 4px rgba(150, 150, 150, 1);
+
+}
+
+.table-container .t-content .t-body {
+  position: relative;
+}
+
+.table-container .t-content .t-body .t-row {
+  background-color: cornsilk;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.table-container .t-content .t-body .t-row .t-info-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.table-container .t-content .t-body .t-row .t-info-column .t-column {
+  height: 100%;
+  padding: 10px;
+}
+
+.table-container .t-content .t-body .t-row .t-info-column .t-column span {
+  font-weight: 600;
+}
+
+.table-container .t-content .t-body .t-row .t-image-column {
+  height: fit-content;
+  padding-block: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.avatar-container{
+width: 250px;
+height: fit-content;
+}
+
+.avatar-container img{
+ width: 20%
+}
+
+.addContact-container{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ width: fit-content;
+ padding: 20px;
+ border: 1px solid;
+ margin-block: 10px;
+ border-radius: 10px;
+}
+
+.addContact-container input {
+ width: fit-content;
+}
+
+.addContact-container .addContanct-button {
+ background-color: cornsilk;
+}
+
+.info-container{
+  display: flex;
+  justify-content: space-evenly;
+}
