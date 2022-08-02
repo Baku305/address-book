@@ -42,6 +42,8 @@ margin-top: 10px;
 
 .table-container .t-content .t-body {
   position: relative;
+  overflow-y: scroll;
+  height: 95vh
 }
 
 .table-container .t-content .t-body .t-row {

@@ -56,7 +56,7 @@ export function Table() {
         <table className="t-content">
           <thead className="t-head">
             <tr>
-              <th>YOUT ADDRESS BOOK</th>
+              <th>YOUR ADDRESS BOOK</th>
             </tr>
           </thead>
           <tbody className="t-body">
